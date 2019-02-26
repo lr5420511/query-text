@@ -1,0 +1,27 @@
+.query {
+    position: absolute;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: 0 0 1px 1px #555;
+    overflow-y: auto;
+}
+
+.query-item {
+    color: #555;
+    text-align: center;
+    line-height: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.query,
+.query-item {
+    margin: 0px;
+    padding: 0px;
+}
+
+.query-item:hover {
+    background-color: #555;
+    color: #fff;
+}
